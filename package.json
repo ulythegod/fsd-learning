@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@effector/reflect": "^8.3.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +12,18 @@
     "@types/node": "^16.18.59",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
+    "antd": "^5.10.2",
+    "axios": "^1.6.0",
+    "compose-function": "^3.0.3",
+    "effector": "^22.8.7",
+    "effector-react": "^22.5.4",
+    "normalizr": "^3.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.17.0",
+    "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.69.5",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/compose-function": "^0.0.32",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3"
   }
 }
